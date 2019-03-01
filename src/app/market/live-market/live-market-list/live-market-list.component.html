@@ -1,0 +1,22 @@
+<div class="row">
+  <div class="col-xs-12">
+    <button class="btn btn-success">Start Live-Market</button>
+  </div>
+</div>
+<hr />
+<div class="row">
+  <div class="col-xs-12">
+    <a
+      class="list-group-item clearfix"
+      style="cursor: pointer;"
+      *ngFor="let stockPrice of stockPrices"
+    >
+      <div class="pull-left">
+        <h4 class="list-group-item-heading">{{ stockPrice.name }}</h4>
+        <p class="list-group-item-text">{{ stockPrice.close }}</p>
+        <p class="list-group-item-text">{{ stockPrice.volume }}</p>
+      </div>
+    </a>
+    <app-live-market-item></app-live-market-item>
+  </div>
+</div>

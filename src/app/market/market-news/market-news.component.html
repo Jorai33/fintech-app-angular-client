@@ -1,0 +1,14 @@
+<div class="row">
+  <div class="col-md-5">
+    <app-market-news-list
+      (oneNewsWasSelected)="selectedOneNews = $event"
+    ></app-market-news-list>
+  </div>
+  <div class="col-md-7">
+    <app-market-news-detail
+      *ngIf="selectedOneNews; else infoText"
+      [oneNews]="selectedOneNews"
+    ></app-market-news-detail
+    ><ng-template #infoText><p>Select any news to see details</p></ng-template>
+  </div>
+</div>

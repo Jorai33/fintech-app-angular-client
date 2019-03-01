@@ -1,0 +1,34 @@
+<div class="row">
+  <div class="col-xs-12">
+    <img
+      [src]="oneNews.urlToImage"
+      alt="Fresh News"
+      class="img-responsive"
+      style="max-height: 100px"
+    />
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <h3>{{ oneNews.title }}</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <h5>{{ oneNews.source }}</h5>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">{{ oneNews.author }}</div>
+</div>
+<div class="row">
+  <div class="col-xs-12">{{ oneNews.publishedAt }}</div>
+</div>
+<div class="row">
+  <div class="col-xs-12">{{ oneNews.content }}</div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <a href="{{ oneNews.url }}" target="blank">{{ oneNews.url }}</a>
+  </div>
+</div>
