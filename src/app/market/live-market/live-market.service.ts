@@ -24,7 +24,7 @@ export class LiveMarketService {
       165.73,
       165.53,
       165.55,
-      123634
+      167556
     )
   ];
 

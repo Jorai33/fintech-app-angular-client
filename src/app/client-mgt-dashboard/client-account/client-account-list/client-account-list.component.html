@@ -1,0 +1,14 @@
+<div class="row">
+  <div class="col-xs-12">
+    <button class="btn btn-success">Client Accounts By Value</button>
+  </div>
+</div>
+<hr />
+<div class="row">
+  <div class="col-xs-12">
+    <app-client-account-item
+      *ngFor="let clientAccountEl of clientAccounts"
+      [clientAccount]="clientAccountEl"
+    ></app-client-account-item>
+  </div>
+</div>

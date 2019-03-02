@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+
 import { StockPrice } from "../../../shared/stock-price.model";
 import { LiveMarketService } from "../live-market.service";
 

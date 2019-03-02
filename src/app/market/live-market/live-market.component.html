@@ -1,4 +1,12 @@
 <div class="row">
-  <div class="col-md-5"><app-live-market-list></app-live-market-list></div>
-  <div class="col-md-7"><app-live-market-detail></app-live-market-detail></div>
+  <div class="col-md-5">
+    <app-live-market-list></app-live-market-list>
+  </div>
+  <div class="col-md-7">
+    <app-live-market-detail
+      *ngIf="selectedStockPrice; else infoText"
+      [stockPrice]="selectedStockPrice"
+    ></app-live-market-detail
+    ><ng-template #infoText><p>Select any news to see details</p></ng-template>
+  </div>
 </div>

@@ -12,14 +12,15 @@ import { MarketNewsItemComponent } from "./market/market-news/market-news-list/m
 import { MarketNewsDetailComponent } from "./market/market-news/market-news-detail/market-news-detail.component";
 import { RelationshipManagerComponent } from "./client-mgt-dashboard/relationship-manager/relationship-manager.component";
 import { ClientMgtDashboardComponent } from "./client-mgt-dashboard/client-mgt-dashboard.component";
-import { KycComponent } from "./client-mgt-dashboard/account-detail/kyc/kyc.component";
-import { AdvisoryComponent } from "./client-mgt-dashboard/account-detail/advisory/advisory.component";
+import { KycComponent } from "./client-mgt-dashboard/client-account/client-account-detail/kyc/kyc.component";
+import { AdvisoryComponent } from "./client-mgt-dashboard/client-account/client-account-detail/advisory/advisory.component";
 import { LiveMarketListComponent } from "./market/live-market/live-market-list/live-market-list.component";
 import { LiveMarketDetailComponent } from "./market/live-market/live-market-detail/live-market-detail.component";
 import { LiveMarketItemComponent } from "./market/live-market/live-market-list/live-market-item/live-market-item.component";
-import { AccountDetailComponent } from "./client-mgt-dashboard/account-detail/account-detail.component";
-import { AccountListComponent } from "./client-mgt-dashboard/account-list/account-list.component";
-import { AccountItemComponent } from "./client-mgt-dashboard/account-list/account-item/account-item.component";
+import { ClientAccountDetailComponent } from "./client-mgt-dashboard/client-account/client-account-detail/client-account-detail.component";
+import { ClientAccountListComponent } from "./client-mgt-dashboard/client-account/client-account-list/client-account-list.component";
+import { ClientAccountItemComponent } from "./client-mgt-dashboard/client-account/client-account-list/client-account-item/client-account-item.component";
+import { ClientAccountComponent } from "./client-mgt-dashboard/client-account/client-account.component";
 
 @NgModule({
   declarations: [
@@ -38,9 +39,10 @@ import { AccountItemComponent } from "./client-mgt-dashboard/account-list/accoun
     LiveMarketItemComponent,
     RelationshipManagerComponent,
     ClientMgtDashboardComponent,
-    AccountDetailComponent,
-    AccountListComponent,
-    AccountItemComponent
+    ClientAccountDetailComponent,
+    ClientAccountListComponent,
+    ClientAccountItemComponent,
+    ClientAccountComponent
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],
