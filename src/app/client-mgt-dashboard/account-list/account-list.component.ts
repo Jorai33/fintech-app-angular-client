@@ -1,9 +1,9 @@
 import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: "app-accounts-list",
-  templateUrl: "./accounts-list.component.html",
-  styleUrls: ["./accounts-list.component.css"]
+  selector: "app-account-list",
+  templateUrl: "./account-list.component.html",
+  styleUrls: ["./account-list.component.css"]
 })
 export class AccountListComponent implements OnInit {
   constructor() {}

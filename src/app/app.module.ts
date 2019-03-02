@@ -11,7 +11,7 @@ import { MarketNewsListComponent } from "./market/market-news/market-news-list/m
 import { MarketNewsItemComponent } from "./market/market-news/market-news-list/market-news-item/market-news-item.component";
 import { MarketNewsDetailComponent } from "./market/market-news/market-news-detail/market-news-detail.component";
 import { RelationshipManagerComponent } from "./client-mgt-dashboard/relationship-manager/relationship-manager.component";
-import { ClientMgtDashboardComponent } from "./client-mgt-dashboard/client-mgt-dashboard";
+import { ClientMgtDashboardComponent } from "./client-mgt-dashboard/client-mgt-dashboard.component";
 import { KycComponent } from "./client-mgt-dashboard/account-detail/kyc/kyc.component";
 import { AdvisoryComponent } from "./client-mgt-dashboard/account-detail/advisory/advisory.component";
 import { LiveMarketListComponent } from "./market/live-market/live-market-list/live-market-list.component";

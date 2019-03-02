@@ -2,7 +2,9 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <app-clients *ngIf="loadedFeature === 'clients'"></app-clients
+      <app-client-mgt-dashboard
+        *ngIf="loadedFeature === 'clients'"
+      ></app-client-mgt-dashboard
       ><app-market *ngIf="loadedFeature !== 'clients'"></app-market>
     </div>
   </div>

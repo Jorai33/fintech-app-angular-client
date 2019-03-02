@@ -1,5 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { StockPrice } from "../../../shared/stock-price.model";
+import { LiveMarketService } from "../live-market.service";
 
 @Component({
   selector: "app-live-market-list",
@@ -7,30 +8,11 @@ import { StockPrice } from "../../../shared/stock-price.model";
   styleUrls: ["./live-market-list.component.css"]
 })
 export class LiveMarketListComponent implements OnInit {
-  stockPrices: StockPrice[] = [
-    new StockPrice(
-      "Apple",
-      "AAPL",
-      new Date("12/18/2018 9:45"),
-      165.69,
-      165.73,
-      165.53,
-      165.55,
-      123634
-    ),
-    new StockPrice(
-      "Apple",
-      "AAPL",
-      new Date("12/18/2018 9:45"),
-      165.69,
-      165.73,
-      165.53,
-      165.55,
-      123634
-    )
-  ];
+  stockPrices: StockPrice[];
 
-  constructor() {}
+  constructor(private liveMarketService: LiveMarketService) {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.stockPrices = this.liveMarketService.getStockPrices();
+  }
 }

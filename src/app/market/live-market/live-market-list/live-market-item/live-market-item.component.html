@@ -1,3 +1,11 @@
-<p>
-  live-market-item works!
-</p>
+<a
+  class="list-group-item clearfix"
+  style="cursor: pointer;"
+  (click)="onSelected()"
+>
+  <div class="pull-left">
+    <h4 class="list-group-item-heading">{{ stockPrice.name }}</h4>
+    <p class="list-group-item-text">{{ stockPrice.close }}</p>
+    <p class="list-group-item-text">{{ stockPrice.volume }}</p>
+  </div>
+</a>

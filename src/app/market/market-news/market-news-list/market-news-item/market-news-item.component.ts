@@ -1,6 +1,7 @@
-import { Component, OnInit, Input, EventEmitter, Output } from "@angular/core";
+import { Component, OnInit, Input } from "@angular/core";
 
 import { News } from "../../news.model";
+import { MarketNewsService } from "../../market-news.service";
 
 @Component({
   selector: "app-market-news-item",
@@ -9,13 +10,12 @@ import { News } from "../../news.model";
 })
 export class MarketNewsItemComponent implements OnInit {
   @Input() oneNews: News;
-  @Output() oneNewsSelected = new EventEmitter<void>();
 
-  constructor() {}
+  constructor(private marketNewsService: MarketNewsService) {}
 
   ngOnInit() {}
 
   onSelected() {
-    this.oneNewsSelected.emit();
+    this.marketNewsService.oneNewsSelected.emit(this.oneNews);
   }
 }
