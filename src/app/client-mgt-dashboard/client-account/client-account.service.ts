@@ -1,8 +1,9 @@
-import { ClientAccount } from "./client-account.model";
-
 import { EventEmitter } from "@angular/core";
 
+import { ClientAccount } from "./client-account.model";
+
 export class ClientAccountService {
+  clientAccountsChanged = new EventEmitter<ClientAccount[]>();
   clientAccountSelected = new EventEmitter<ClientAccount>();
 
   private clientAccounts: ClientAccount[] = [
@@ -12,6 +13,7 @@ export class ClientAccountService {
       "Switzerland",
       "Private Individual",
       "Live",
+      "CHF",
       new Date("2019-02-28T12:17:57Z"),
       null,
       2,
@@ -24,6 +26,7 @@ export class ClientAccountService {
       "Bangladesh",
       "Private Individual",
       "Prospect",
+      "USD",
       new Date("2019-01-02T12:17:57Z"),
       null,
       3,
@@ -34,5 +37,10 @@ export class ClientAccountService {
 
   getClientAccounts() {
     return this.clientAccounts.slice();
+  }
+
+  addClientAccount(clientAccount: ClientAccount) {
+    this.clientAccounts.push(clientAccount);
+    this.clientAccountsChanged.emit(this.clientAccounts.slice());
   }
 }

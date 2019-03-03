@@ -1,0 +1,77 @@
+<div class="modal-header">
+  <h4 class="modal-title">New Client Account</h4>
+</div>
+
+<!-- Form body
+  [formGroup] -- identify class member in FormModalComponent
+  (ngSubmit)  -- identify class method called when user submit form
+  -->
+<form [formGroup]="newClientAccountForm" (ngSubmit)="submitForm()">
+  <div class="modal-body">
+    <div class="container">
+      <!-- Field -->
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          class="form-control"
+          formControlName="name"
+          required
+        />
+      </div>
+      <!-- Field -->
+      <div class="form-group">
+        <label for="country">Country</label>
+        <input
+          type="text"
+          id="country"
+          class="form-control"
+          formControlName="country"
+          required
+        />
+      </div>
+      <!-- Field -->
+      <div class="form-group">
+        <label for="entity">Entity</label>
+        <input
+          type="text"
+          id="entity"
+          class="form-control"
+          formControlName="entity"
+          required
+        />
+      </div>
+      <!-- Field -->
+      <div class="form-group">
+        <label for="referenceCurrency">Reference Currency</label>
+        <input
+          type="text"
+          id="referenceCurrency"
+          class="form-control"
+          formControlName="referenceCurrency"
+          required
+        />
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-footer">
+    <button
+      type="button"
+      class="btn btn-outline-secondary"
+      (click)="activeModal.dismiss('Cancel clicked')"
+    >
+      Cancel
+    </button>
+    <!-- Form submit.  This button is interpreted in browser as
+    the submit action. -->
+    <button
+      class="btn btn-success"
+      [disabled]="!newClientAccountForm.valid"
+      (click)="submitForm()"
+    >
+      Save
+    </button>
+  </div>
+</form>

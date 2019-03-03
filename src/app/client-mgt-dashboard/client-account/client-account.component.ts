@@ -7,7 +7,7 @@ import { ClientAccount } from "./client-account.model";
   selector: "app-client-account",
   templateUrl: "./client-account.component.html",
   styleUrls: ["./client-account.component.css"],
-  providers: [ClientAccountService]
+  providers: []
 })
 export class ClientAccountComponent implements OnInit {
   selectedClientAccount: ClientAccount;

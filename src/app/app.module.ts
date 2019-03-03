@@ -1,6 +1,6 @@
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
-import { FormsModule } from "@angular/forms";
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 
 import { AppComponent } from "./app.component";
 import { HeaderComponent } from "./header/header.component";
@@ -21,6 +21,9 @@ import { ClientAccountDetailComponent } from "./client-mgt-dashboard/client-acco
 import { ClientAccountListComponent } from "./client-mgt-dashboard/client-account/client-account-list/client-account-list.component";
 import { ClientAccountItemComponent } from "./client-mgt-dashboard/client-account/client-account-list/client-account-item/client-account-item.component";
 import { ClientAccountComponent } from "./client-mgt-dashboard/client-account/client-account.component";
+import { ClientAccountFormComponent } from "./client-mgt-dashboard/client-account/client-account-list/client-account-form/client-account-form.component";
+import { NgbModule, NgbActiveModal } from "@ng-bootstrap/ng-bootstrap";
+import { ClientAccountService } from "./client-mgt-dashboard/client-account/client-account.service";
 
 @NgModule({
   declarations: [
@@ -42,10 +45,12 @@ import { ClientAccountComponent } from "./client-mgt-dashboard/client-account/cl
     ClientAccountDetailComponent,
     ClientAccountListComponent,
     ClientAccountItemComponent,
-    ClientAccountComponent
+    ClientAccountComponent,
+    ClientAccountFormComponent
   ],
-  imports: [BrowserModule, FormsModule],
-  providers: [],
-  bootstrap: [AppComponent]
+  imports: [BrowserModule, FormsModule, ReactiveFormsModule, NgbModule],
+  providers: [NgbActiveModal, ClientAccountService],
+  bootstrap: [AppComponent],
+  entryComponents: [ClientAccountFormComponent]
 })
 export class AppModule {}
