@@ -1,0 +1,24 @@
+<li
+  class="list-group-item clearfix"
+  style="cursor: pointer;"
+  [routerLink]="[index]"
+  routerLinkActive="active"
+>
+  <div class="row">
+    <div class="col-md-3">
+      <p class="list-group-item-heading">{{ clientAccount.name }}</p>
+    </div>
+    <div class="col-md-3">
+      <p class="list-group-item-text">{{ clientAccount.id }}</p>
+    </div>
+    <div class="col-md-2">
+      <p class="list-group-item-text">{{ clientAccount.entity }}</p>
+    </div>
+    <div class="col-md-2">
+      <p class="list-group-item-text">{{ clientAccount.state }}</p>
+    </div>
+    <div class="col-md-2">
+      <p class="list-group-item-text">{{ clientAccount.state }}</p>
+    </div>
+  </div>
+</li>

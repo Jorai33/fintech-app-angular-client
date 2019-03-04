@@ -1,7 +1,6 @@
 import { Component, OnInit, Input } from "@angular/core";
 
-import { ClientAccount } from "../../client-account.model";
-import { ClientAccountService } from "../../client-account.service";
+import { ClientAccount } from "../../../client-account.model";
 
 @Component({
   selector: "app-client-account-item",
@@ -10,12 +9,9 @@ import { ClientAccountService } from "../../client-account.service";
 })
 export class ClientAccountItemComponent implements OnInit {
   @Input() clientAccount: ClientAccount;
+  @Input() index: number;
 
-  constructor(private clientAccountService: ClientAccountService) {}
+  constructor() {}
 
   ngOnInit() {}
-
-  onSelected() {
-    this.clientAccountService.clientAccountSelected.emit(this.clientAccount);
-  }
 }

@@ -6,9 +6,12 @@
 <hr />
 <div class="row">
   <div class="col-xs-12">
-    <app-live-market-item
-      *ngFor="let stockPriceEl of stockPrices"
-      [stockPrice]="stockPriceEl"
-    ></app-live-market-item>
+    <ul class="list-group">
+      <app-live-market-item
+        *ngFor="let stockPriceEl of stockPrices; let i = index"
+        [stockPrice]="stockPriceEl"
+        [index]="i"
+      ></app-live-market-item>
+    </ul>
   </div>
 </div>

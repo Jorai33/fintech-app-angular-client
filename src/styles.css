@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #f3f3f3;
+}
+
+nav {
+  background-color: #ffffff;
+  border-bottom: 3px solid #e3e3e3;
+}
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.list-group-item {
+  border: 0px;
+  border-radius: 0px;
+}
+
+.list-group-item:hover {
+  background-color: #ececec;
+}
+
+.list-group-item:first-child {
+  border-top-left-radius: 0rem;
+  border-top-right-radius: 0rem;
+}
+
+.list-group-item:last-child {
+  margin-bottom: none;
+  border-bottom-right-radius: 0rem;
+  border-bottom-left-radius: 0rem;
+}
+
+.page-section {
+  margin-top: 20px;
+}
+
+.section {
+  background-color: #ffffff;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
+}

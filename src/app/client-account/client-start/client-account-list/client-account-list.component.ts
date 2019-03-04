@@ -2,8 +2,8 @@ import { Component, OnInit } from "@angular/core";
 import { NgbModal } from "@ng-bootstrap/ng-bootstrap";
 
 import { ClientAccountFormComponent } from "./client-account-form/client-account-form.component";
-import { ClientAccount } from "../client-account.model";
-import { ClientAccountService } from "../client-account.service";
+import { ClientAccount } from "../../client-account.model";
+import { ClientAccountService } from "../../client-account.service";
 
 @Component({
   selector: "app-client-account-list",

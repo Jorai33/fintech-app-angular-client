@@ -3,10 +3,11 @@
     <app-live-market-list></app-live-market-list>
   </div>
   <div class="col-md-7">
-    <app-live-market-detail
+    <!-- <app-live-market-detail
       *ngIf="selectedStockPrice; else infoText"
       [stockPrice]="selectedStockPrice"
     ></app-live-market-detail
-    ><ng-template #infoText><p>Select any news to see details</p></ng-template>
+    ><ng-template #infoText><p>Select any news to see details</p></ng-template> -->
+    <router-outlet></router-outlet>
   </div>
 </div>

@@ -31,4 +31,8 @@ export class LiveMarketService {
   getStockPrices() {
     return this.stockPrices.slice();
   }
+
+  getStockPrice(index: number) {
+    return this.stockPrices[index];
+  }
 }

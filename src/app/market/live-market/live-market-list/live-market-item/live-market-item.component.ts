@@ -1,6 +1,5 @@
 import { Component, OnInit, Input } from "@angular/core";
 
-import { LiveMarketService } from "../../live-market.service";
 import { StockPrice } from "src/app/shared/stock-price.model";
 
 @Component({
@@ -10,12 +9,9 @@ import { StockPrice } from "src/app/shared/stock-price.model";
 })
 export class LiveMarketItemComponent implements OnInit {
   @Input() stockPrice: StockPrice;
+  @Input() index: number;
 
-  constructor(private liveMarketService: LiveMarketService) {}
+  constructor() {}
 
   ngOnInit() {}
-
-  onSelected() {
-    this.liveMarketService.stockPriceSelected.emit(this.stockPrice);
-  }
 }

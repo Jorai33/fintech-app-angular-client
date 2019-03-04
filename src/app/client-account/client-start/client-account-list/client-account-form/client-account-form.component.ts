@@ -7,8 +7,8 @@ import {
 } from "@angular/forms";
 
 import { NgbActiveModal } from "@ng-bootstrap/ng-bootstrap";
-import { ClientAccount } from "../../client-account.model";
-import { ClientAccountService } from "../../client-account.service";
+import { ClientAccount } from "../../../client-account.model";
+import { ClientAccountService } from "../../../client-account.service";
 
 @Component({
   selector: "app-client-account-form",

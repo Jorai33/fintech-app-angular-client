@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col-sm-12">
+    <button class="btn btn-outline-primary" (click)="openFormModal()">
+      Add Client
+    </button>
+    <hr />
+    <ul class="list-group">
+      <app-client-account-item
+        *ngFor="let clientAccountEl of clientAccounts; let i = index"
+        [clientAccount]="clientAccountEl"
+        [index]="i"
+      ></app-client-account-item>
+    </ul>
+  </div>
+</div>

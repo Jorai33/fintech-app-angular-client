@@ -1,11 +1,5 @@
 <app-header (featureSelected)="onNavigate($event)"></app-header>
-<div class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <app-client-mgt-dashboard
-        *ngIf="loadedFeature === 'clients'"
-      ></app-client-mgt-dashboard
-      ><app-market *ngIf="loadedFeature !== 'clients'"></app-market>
-    </div>
-  </div>
+
+<div class="col-md-12">
+  <router-outlet></router-outlet>
 </div>
