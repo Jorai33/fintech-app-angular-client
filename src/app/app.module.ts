@@ -13,7 +13,7 @@ import { MarketNewsItemComponent } from "./market/market-news/market-news-list/m
 import { MarketNewsDetailComponent } from "./market/market-news/market-news-detail/market-news-detail.component";
 import { RelationshipManagerComponent } from "./client-account/relationship-manager/relationship-manager.component";
 import { KycComponent } from "./client-account/client-account-dashboard/kyc/kyc.component";
-import { AdvisoryComponent } from ".//client-account/client-account-dashboard/advisory/advisory.component";
+import { PortfolioManagementComponent } from "./client-account/client-account-dashboard/portfolio-management/portfolio-management.component";
 import { LiveMarketListComponent } from "./market/live-market/live-market-list/live-market-list.component";
 import { LiveMarketDetailComponent } from "./market/live-market/live-market-detail/live-market-detail.component";
 import { LiveMarketItemComponent } from "./market/live-market/live-market-list/live-market-item/live-market-item.component";
@@ -25,8 +25,16 @@ import { ClientAccountFormComponent } from "./client-account/client-start/client
 import { ClientAccountService } from "./client-account/client-account.service";
 import { MarketStartComponent } from "./market/market-start/market-start.component";
 import { ClientStartComponent } from "./client-account/client-start/client-start.component";
-import { SidebarComponent } from "./client-account/sidebar/sidebar.component";
+import { SidebarClientComponent } from "./client-account/sidebar-client/sidebar-client.component";
 import { AppRoutingModule } from "./app-routing.module";
+import { ClientOverviewComponent } from "./client-account/client-account-dashboard/kyc/client-overview/client-overview.component";
+import { AccountHolderComponent } from "./client-account/client-account-dashboard/kyc/account-holder/account-holder.component";
+import { ExperienceLevelComponent } from "./client-account/client-account-dashboard/kyc/experience-level/experience-level.component";
+import { FinancialSituationComponent } from "./client-account/client-account-dashboard/kyc/financial-situation/financial-situation.component";
+import { DocumentComponent } from "./client-account/client-account-dashboard/document/document.component";
+import { PortfolioMonitorComponent } from "./client-account/client-account-dashboard/portfolio-management/portfolio-monitor/portfolio-monitor.component";
+import { PortfolioCompositionComponent } from "./client-account/client-account-dashboard/portfolio-management/portfolio-composition/portfolio-composition.component";
+import { PortfolioSimulationComponent } from "./client-account/client-account-dashboard/portfolio-management/portfolio-simulation/portfolio-simulation.component";
 
 @NgModule({
   declarations: [
@@ -39,7 +47,7 @@ import { AppRoutingModule } from "./app-routing.module";
     MarketNewsItemComponent,
     MarketNewsDetailComponent,
     KycComponent,
-    AdvisoryComponent,
+    PortfolioManagementComponent,
     LiveMarketListComponent,
     LiveMarketDetailComponent,
     LiveMarketItemComponent,
@@ -51,7 +59,15 @@ import { AppRoutingModule } from "./app-routing.module";
     ClientAccountFormComponent,
     MarketStartComponent,
     ClientStartComponent,
-    SidebarComponent
+    SidebarClientComponent,
+    ClientOverviewComponent,
+    AccountHolderComponent,
+    ExperienceLevelComponent,
+    FinancialSituationComponent,
+    DocumentComponent,
+    PortfolioMonitorComponent,
+    PortfolioCompositionComponent,
+    PortfolioSimulationComponent
   ],
   imports: [
     BrowserModule,

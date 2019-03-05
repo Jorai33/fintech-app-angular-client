@@ -1,0 +1,91 @@
+<div class="sidebar">
+  <div>
+    <h6>
+      <a
+        class="nav-link"
+        (click)="isCollapsedKYC = !isCollapsedKYC"
+        [attr.aria-expanded]="!isCollapsedKYC"
+        aria-controls="collapseKYC"
+        ><i class="far fa-user fa-lg"></i>
+        KYC
+      </a>
+    </h6>
+    <div id="collapseKYC">
+      <ul
+        class="list-group navbar-nav sidebar-ul"
+        [ngbCollapse]="isCollapsedKYC"
+      >
+        <li routerLinkActive="active">
+          <a
+            class="nav-link  sidebar-a"
+            [routerLink]="['/client', 'account', id, 'client-overview']"
+            >Client Overview</a
+          >
+        </li>
+        <li routerLinkActive="active">
+          <a
+            class="nav-link sidebar-a"
+            [routerLink]="['/client', 'account', id, 'account-holder']"
+            >Account Holder</a
+          >
+        </li>
+        <li routerLinkActive="active">
+          <a
+            class="nav-link sidebar-a"
+            [routerLink]="['/client', 'account', id, 'experience-level']"
+            >Experience Level</a
+          >
+        </li>
+        <li>
+          <a
+            class="nav-link sidebar-a"
+            [routerLink]="['/client', 'account', id, 'financial-situation']"
+            >Financial Situation</a
+          >
+        </li>
+      </ul>
+    </div>
+    <h6>
+      <a
+        class="nav-link"
+        (click)="isCollapsedMP = !isCollapsedMP"
+        [attr.aria-expanded]="!isCollapsedMP"
+        aria-controls="collapseMP"
+        ><i class="fas fa-chart-line fa-lg"></i> Manage Portfolios</a
+      >
+    </h6>
+    <div id="collapseMP">
+      <ul
+        class="list-group navbar-nav sidebar-ul"
+        [ngbCollapse]="!isCollapsedMP"
+      >
+        <li routerLinkActive="active">
+          <a
+            class="nav-link sidebar-a"
+            [routerLink]="['/client', 'account', id, 'portfolio-monitor']"
+            >Portfolio Monitor</a
+          >
+        </li>
+        <li routerLinkActive="active">
+          <a
+            class="nav-link sidebar-a"
+            [routerLink]="['/client', 'account', id, 'portfolio-composition']"
+            >Portfolio Composition</a
+          >
+        </li>
+        <li routerLinkActive="active">
+          <a
+            class="nav-link sidebar-a"
+            [routerLink]="['/client', 'account', id, 'portfolio-simulation']"
+            >Portfolio Simulation</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h6>
+        <a class="nav-link"><i class="far fa-file-alt fa-lg"></i> Documents</a>
+      </h6>
+    </div>
+  </div>
+</div>

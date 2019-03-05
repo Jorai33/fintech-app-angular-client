@@ -1,21 +1,67 @@
 /* You can add global styles to this file, and also import other style files */
+
+*:focus {
+  outline: none;
+}
+
 body {
   background-color: #f3f3f3;
 }
 
 nav {
   background-color: #ffffff;
-  border-bottom: 3px solid #e3e3e3;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
 }
 
 .row {
-  margin-right: 0px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.main-section {
+  margin-top: 55px;
+  margin-left: 40px;
+  padding-top: 20px;
+}
+
+.main-section.left {
+  margin-left: 60px;
+}
+
+.with-header {
   margin-left: 0px;
+}
+
+.col-md-4 > .main-section {
+  margin-left: 0px;
+}
+
+.col-md-10 > h3 {
+  margin-top: 30px;
+}
+
+.section {
+  background-color: #ffffff;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #016bc9;
+  margin: 1em 0;
+  padding: 0;
+}
+
+form.search-account > div > input {
+  border: 0px;
 }
 
 .list-group-item {
   border: 0px;
   border-radius: 0px;
+  padding-left: 0rem;
 }
 
 .list-group-item:hover {
@@ -33,11 +79,66 @@ nav {
   border-bottom-left-radius: 0rem;
 }
 
-.page-section {
-  margin-top: 20px;
+li > div.row {
+  margin-left: 0rem;
 }
 
-.section {
-  background-color: #ffffff;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
+li > div.row > div.col-md-3 {
+  padding-left: 0rem;
+}
+
+.list-group-item-heading {
+  font-size: 80%;
+  font-weight: bold;
+}
+
+.form-control {
+  display: inline-block;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fa-plus-circle {
+  color: #016bc9;
+  font-size: 150%;
+}
+
+.fa-search {
+  color: #016bc9;
+}
+
+form.search-account {
+  margin-bottom: -16px;
+  margin-top: 10px;
+}
+
+.sidebar {
+  margin-top: 10px;
+  padding-left: 0px;
+}
+
+.sidebar-ul {
+  margin-left: 70px;
+  margin-top: -11px;
+}
+
+.sidebar-a {
+  color: #212529;
+}
+
+.fa-chart-line {
+  margin-right: 13px;
+}
+
+.fa-file-alt {
+  padding-left: 3px;
+  margin-right: 16px;
+}
+
+.fa-user {
+  margin-right: 16px;
 }

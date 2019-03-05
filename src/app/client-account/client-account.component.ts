@@ -15,10 +15,10 @@ export class ClientAccountComponent implements OnInit {
   constructor(private clientAccountService: ClientAccountService) {}
 
   ngOnInit() {
-    this.clientAccountService.clientAccountSelected.subscribe(
-      (clientAccount: ClientAccount) => {
-        this.selectedClientAccount = clientAccount;
-      }
-    );
+    // this.clientAccountService.clientAccountSelected.subscribe(
+    //   (clientAccount: ClientAccount) => {
+    //     this.selectedClientAccount = clientAccount;
+    //   }
+    // );
   }
 }

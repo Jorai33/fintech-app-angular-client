@@ -4,7 +4,7 @@ import { ClientAccount } from "./client-account.model";
 
 export class ClientAccountService {
   clientAccountsChanged = new EventEmitter<ClientAccount[]>();
-  clientAccountSelected = new EventEmitter<ClientAccount>();
+  clientAccountSelected: number;
 
   private clientAccounts: ClientAccount[] = [
     new ClientAccount(
@@ -32,8 +32,103 @@ export class ClientAccountService {
       3,
       2,
       5000000
+    ),
+    new ClientAccount(
+      "Zavastia Krantz",
+      "453767",
+      "Bangladesh",
+      "Private Individual",
+      "Prospect",
+      "USD",
+      new Date("2019-01-02T12:17:57Z"),
+      null,
+      3,
+      2,
+      5000000
+    ),
+    new ClientAccount(
+      "Zavastia Krantz",
+      "453767",
+      "Bangladesh",
+      "Private Individual",
+      "Prospect",
+      "USD",
+      new Date("2019-01-02T12:17:57Z"),
+      null,
+      3,
+      2,
+      5000000
+    ),
+    new ClientAccount(
+      "Zavastia Krantz",
+      "453767",
+      "Bangladesh",
+      "Private Individual",
+      "Prospect",
+      "USD",
+      new Date("2019-01-02T12:17:57Z"),
+      null,
+      3,
+      2,
+      5000000
+    ),
+    new ClientAccount(
+      "Zavastia Krantz",
+      "453767",
+      "Bangladesh",
+      "Private Individual",
+      "Prospect",
+      "USD",
+      new Date("2019-01-02T12:17:57Z"),
+      null,
+      3,
+      2,
+      5000000
+    ),
+    new ClientAccount(
+      "Zavastia Krantz",
+      "453767",
+      "Bangladesh",
+      "Private Individual",
+      "Prospect",
+      "USD",
+      new Date("2019-01-02T12:17:57Z"),
+      null,
+      3,
+      2,
+      5000000
+    ),
+    new ClientAccount(
+      "Zavastia Krantz",
+      "453767",
+      "Bangladesh",
+      "Private Individual",
+      "Prospect",
+      "USD",
+      new Date("2019-01-02T12:17:57Z"),
+      null,
+      3,
+      2,
+      5000000
+    ),
+    new ClientAccount(
+      "Zavastia Krantz",
+      "453767",
+      "Bangladesh",
+      "Private Individual",
+      "Prospect",
+      "USD",
+      new Date("2019-01-02T12:17:57Z"),
+      null,
+      3,
+      2,
+      5000000
     )
   ];
+
+  setClientAccountSelected(id: number) {
+    this.clientAccountSelected = id;
+  }
 
   getClientAccounts() {
     return this.clientAccounts.slice();

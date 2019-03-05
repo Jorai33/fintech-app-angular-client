@@ -10,18 +10,22 @@ import { ClientAccountService } from "../client-account.service";
   styleUrls: ["./client-account-dashboard.component.css"]
 })
 export class ClientAccountDashboardComponent implements OnInit {
-  clientAccount: ClientAccount;
-  id: number;
+  // clientAccount: ClientAccount;
+  // id: number;
 
   constructor(
-    private clientAccountService: ClientAccountService,
-    private route: ActivatedRoute
+    private route: ActivatedRoute // private clientAccountService: ClientAccountService,
   ) {}
 
   ngOnInit() {
-    this.route.params.subscribe((params: Params) => {
-      this.id = +params["id"];
-      this.clientAccount = this.clientAccountService.getClientAccount(this.id);
-    });
+    // this.route.params.subscribe((params: Params) => {
+    //   this.id = +params["id"];
+    //   this.clientAccount = this.clientAccountService.getClientAccount(this.id);
+    // });
+    if (this.route) {
+      console.log(
+        "The ClientAccountDaschboard - ActivatedRoute -> was activated"
+      );
+    }
   }
 }

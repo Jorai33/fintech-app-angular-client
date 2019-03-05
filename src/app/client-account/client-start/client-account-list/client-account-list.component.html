@@ -1,8 +1,23 @@
 <div class="row">
   <div class="col-sm-12">
-    <button class="btn btn-outline-primary" (click)="openFormModal()">
-      Add Client
-    </button>
+    <div class="flex">
+      <h5>Accounts</h5>
+      <button class="btn btn-lg" (click)="openFormModal()">
+        <i class="fas fa-plus-circle"></i>
+      </button>
+    </div>
+    <form class="search-account">
+      <div class="flex">
+        <button class="btn" type="submit">
+          <i class="fas fa-search"></i>
+        </button>
+        <input
+          class="form-control mr-sm-2"
+          type="text"
+          placeholder="Type in the Client Name or ID"
+        />
+      </div>
+    </form>
     <hr />
     <ul class="list-group">
       <app-client-account-item
