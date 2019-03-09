@@ -130,16 +130,7 @@ export class ClientAccountService {
     this.clientAccountSelected = id;
   }
 
-  getClientAccounts() {
-    return this.clientAccounts.slice();
-  }
-
   getClientAccount(index: number) {
     return this.clientAccounts[index];
-  }
-
-  addClientAccount(clientAccount: ClientAccount) {
-    this.clientAccounts.push(clientAccount);
-    this.clientAccountsChanged.emit(this.clientAccounts.slice());
   }
 }

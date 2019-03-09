@@ -21,7 +21,11 @@
     <hr />
     <ul class="list-group">
       <app-client-account-item
-        *ngFor="let clientAccountEl of clientAccounts; let i = index"
+        *ngFor="
+          let clientAccountEl of (clientAccountListState | async)
+            .clientAccounts;
+          let i = index
+        "
         [clientAccount]="clientAccountEl"
         [index]="i"
       ></app-client-account-item>

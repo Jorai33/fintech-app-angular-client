@@ -1,6 +1,7 @@
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
+import { StoreModule } from "@ngrx/store";
 
 import { NgbModule, NgbActiveModal } from "@ng-bootstrap/ng-bootstrap";
 import { AppComponent } from "./app.component";
@@ -35,6 +36,11 @@ import { DocumentComponent } from "./client-account/client-account-dashboard/doc
 import { PortfolioMonitorComponent } from "./client-account/client-account-dashboard/portfolio-management/portfolio-monitor/portfolio-monitor.component";
 import { PortfolioCompositionComponent } from "./client-account/client-account-dashboard/portfolio-management/portfolio-composition/portfolio-composition.component";
 import { PortfolioSimulationComponent } from "./client-account/client-account-dashboard/portfolio-management/portfolio-simulation/portfolio-simulation.component";
+import { clientAccountReducer } from "./client-account/store/client-account.reducers";
+import { StoreRouterConnectingModule } from "@ngrx/router-store";
+import { StoreDevtoolsModule } from "@ngrx/store-devtools";
+import { environment } from "../environments/environment";
+import { SidebarMarketComponent } from './market/sidebar-market/sidebar-market.component';
 
 @NgModule({
   declarations: [
@@ -67,14 +73,18 @@ import { PortfolioSimulationComponent } from "./client-account/client-account-da
     DocumentComponent,
     PortfolioMonitorComponent,
     PortfolioCompositionComponent,
-    PortfolioSimulationComponent
+    PortfolioSimulationComponent,
+    SidebarMarketComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
     NgbModule,
-    AppRoutingModule
+    AppRoutingModule,
+    StoreModule.forRoot({ clientAccountList: clientAccountReducer }),
+    StoreRouterConnectingModule,
+    !environment.production ? StoreDevtoolsModule.instrument() : []
   ],
   providers: [NgbActiveModal, ClientAccountService],
   bootstrap: [AppComponent],

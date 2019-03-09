@@ -1,0 +1,67 @@
+<div class="sidebar">
+  <div>
+    <h6>
+      <a
+        class="nav-link"
+        (click)="isCollapsedLM = !isCollapsedLM"
+        [attr.aria-expanded]="!isCollapsedLM"
+        aria-controls="collapseLM"
+        ><i class="far fa-chart-bar"></i>
+        Live Market
+      </a>
+    </h6>
+    <div id="collapseLM">
+      <ul
+        class="list-group navbar-nav sidebar-ul"
+        [ngbCollapse]="isCollapsedLM"
+      >
+        <li routerLinkActive="active">
+          <a class="nav-link  sidebar-a" [routerLink]="['/market', 'stock']"
+            >Stocks</a
+          >
+        </li>
+        <li routerLinkActive="active">
+          <a class="nav-link sidebar-a" [routerLink]="['/market', 'bond']"
+            >Bonds</a
+          >
+        </li>
+        <li routerLinkActive="active">
+          <a class="nav-link sidebar-a" [routerLink]="['/market', 'currencies']"
+            >Currencies</a
+          >
+        </li>
+      </ul>
+    </div>
+    <h6>
+      <a
+        class="nav-link"
+        (click)="isCollapsedMP = !isCollapsedMP"
+        [attr.aria-expanded]="!isCollapsedMP"
+        aria-controls="collapseMP"
+        [routerLink]="['/news']"
+        ><i class="far fa-newspaper"></i> News</a
+      >
+    </h6>
+    <div id="collapseMP">
+      <!-- <ul
+        class="list-group navbar-nav sidebar-ul"
+        [ngbCollapse]="!isCollapsedMP"
+      >
+        <li routerLinkActive="active">
+          <a
+            class="nav-link sidebar-a"
+            [routerLink]="['/client', 'account', id, 'portfolio-monitor']"
+            >Finance</a
+          >
+        </li>
+        <li routerLinkActive="active">
+          <a
+            class="nav-link sidebar-a"
+            [routerLink]="['/client', 'account', id, 'portfolio-composition']"
+            >Business</a
+          >
+        </li>
+      </ul> -->
+    </div>
+  </div>
+</div>

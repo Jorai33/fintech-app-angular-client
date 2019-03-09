@@ -70,17 +70,37 @@ const appRoutes: Routes = [
     component: MarketComponent,
     children: [
       { path: "", component: MarketStartComponent, pathMatch: "full" },
-      { path: "market-news", component: MarketNewsComponent },
       {
-        path: "live-market",
-        component: LiveMarketComponent,
+        path: "stock",
+        component: StockLiveMarketComponent,
         children: [
           {
             path: ":id",
-            component: LiveMarketDetailComponent
+            component: StockLiveMarketDetailComponent
           }
         ]
-      }
+      },
+      {
+        path: "bond",
+        component: BondLiveMarketComponent,
+        children: [
+          {
+            path: ":id",
+            component: BondLiveMarketDetailComponent
+          }
+        ]
+      },
+      {
+        path: "currency",
+        component: CurrencyLiveMarketComponent,
+        children: [
+          {
+            path: ":id",
+            component: CurrencyLiveMarketDetailComponent
+          }
+        ]
+      },
+      { path: "news", component: MarketNewsComponent }
     ]
   }
 ];

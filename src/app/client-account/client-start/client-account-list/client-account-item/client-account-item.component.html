@@ -1,6 +1,7 @@
 <li
   class="list-group-item clearfix"
   style="cursor: pointer;"
+  (click)="onClientAccountSelection(index)"
   [routerLink]="['account', index, 'client-overview']"
   routerLinkActive="active"
 >

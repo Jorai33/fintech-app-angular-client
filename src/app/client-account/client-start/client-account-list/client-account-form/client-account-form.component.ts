@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from "@angular/core";
+import { Store } from "@ngrx/store";
 import {
   FormGroup,
   FormBuilder,
@@ -9,6 +10,8 @@ import {
 import { NgbActiveModal } from "@ng-bootstrap/ng-bootstrap";
 import { ClientAccount } from "../../../client-account.model";
 import { ClientAccountService } from "../../../client-account.service";
+import * as ClientAccountActions from "../../../store/client-account.action";
+import * as fromClientAccountList from "../../../../client-account/store/client-account.reducers";
 
 @Component({
   selector: "app-client-account-form",
@@ -25,7 +28,8 @@ export class ClientAccountFormComponent implements OnInit {
   constructor(
     public activeModal: NgbActiveModal,
     private formBuilder: FormBuilder,
-    private clientAccountService: ClientAccountService
+    private clientAccountService: ClientAccountService,
+    private store: Store<fromClientAccountList.AppState>
   ) {
     this.createForm();
   }
@@ -66,6 +70,9 @@ export class ClientAccountFormComponent implements OnInit {
       null,
       null
     );
-    this.clientAccountService.addClientAccount(newClientAccount);
+    this.store.dispatch(
+      new ClientAccountActions.AddClientAccount(newClientAccount)
+    );
+    // this.clientAccountService.addClientAccount(newClientAccount);
   }
 }
