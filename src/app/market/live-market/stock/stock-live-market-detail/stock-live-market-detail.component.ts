@@ -1,15 +1,15 @@
 import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute, Params } from "@angular/router";
 
-import { StockPrice } from "src/app/shared/stock-price.model";
-import { LiveMarketService } from "../live-market.service";
+import { StockPrice } from "../../../../shared/stock-price.model";
+import { LiveMarketService } from "../../live-market.service";
 
 @Component({
-  selector: "app-live-market-detail",
-  templateUrl: "./live-market-detail.component.html",
-  styleUrls: ["./live-market-detail.component.css"]
+  selector: "app-stock-live-market-detail",
+  templateUrl: "./stock-live-market-detail.component.html",
+  styleUrls: ["./stock-live-market-detail.component.css"]
 })
-export class LiveMarketDetailComponent implements OnInit {
+export class StockLiveMarketDetailComponent implements OnInit {
   stockPrice: StockPrice;
   id: number;
 

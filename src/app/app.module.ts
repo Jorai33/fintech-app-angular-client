@@ -15,9 +15,6 @@ import { MarketNewsDetailComponent } from "./market/market-news/market-news-deta
 import { RelationshipManagerComponent } from "./client-account/relationship-manager/relationship-manager.component";
 import { KycComponent } from "./client-account/client-account-dashboard/kyc/kyc.component";
 import { PortfolioManagementComponent } from "./client-account/client-account-dashboard/portfolio-management/portfolio-management.component";
-import { LiveMarketListComponent } from "./market/live-market/live-market-list/live-market-list.component";
-import { LiveMarketDetailComponent } from "./market/live-market/live-market-detail/live-market-detail.component";
-import { LiveMarketItemComponent } from "./market/live-market/live-market-list/live-market-item/live-market-item.component";
 import { ClientAccountDashboardComponent } from "./client-account/client-account-dashboard/client-account-dashboard.component";
 import { ClientAccountListComponent } from "./client-account/client-start/client-account-list/client-account-list.component";
 import { ClientAccountItemComponent } from "./client-account/client-start/client-account-list/client-account-item/client-account-item.component";
@@ -40,7 +37,16 @@ import { clientAccountReducer } from "./client-account/store/client-account.redu
 import { StoreRouterConnectingModule } from "@ngrx/router-store";
 import { StoreDevtoolsModule } from "@ngrx/store-devtools";
 import { environment } from "../environments/environment";
-import { SidebarMarketComponent } from './market/sidebar-market/sidebar-market.component';
+import { SidebarMarketComponent } from "./market/sidebar-market/sidebar-market.component";
+import { StockLiveMarketDetailComponent } from "./market/live-market/stock/stock-live-market-detail/stock-live-market-detail.component";
+import { StockLiveMarketListComponent } from "./market/live-market/stock/stock-live-market-list/stock-live-market-list.component";
+import { StockLiveMarketItemComponent } from "./market/live-market/stock/stock-live-market-list/stock-live-market-item/stock-live-market-item.component";
+import { BondLiveMarketDetailComponent } from "./market/live-market/bond/bond-live-market-detail/bond-live-market-detail.component";
+import { BondLiveMarketListComponent } from "./market/live-market/bond/bond-live-market-list/bond-live-market-list.component";
+import { BondLiveMarketItemComponent } from "./market/live-market/bond/bond-live-market-list/bond-live-market-item/bond-live-market-item.component";
+import { CurrencyLiveMarketListComponent } from "./market/live-market/currency/currency-live-market-list/currency-live-market-list.component";
+import { CurrencyLiveMarketDetailComponent } from "./market/live-market/currency/currency-live-market-detail/currency-live-market-detail.component";
+import { CurrencyLiveMarketItemComponent } from "./market/live-market/currency/currency-live-market-list/currency-live-market-item/currency-live-market-item.component";
 
 @NgModule({
   declarations: [
@@ -54,9 +60,6 @@ import { SidebarMarketComponent } from './market/sidebar-market/sidebar-market.c
     MarketNewsDetailComponent,
     KycComponent,
     PortfolioManagementComponent,
-    LiveMarketListComponent,
-    LiveMarketDetailComponent,
-    LiveMarketItemComponent,
     RelationshipManagerComponent,
     ClientAccountDashboardComponent,
     ClientAccountListComponent,
@@ -74,7 +77,16 @@ import { SidebarMarketComponent } from './market/sidebar-market/sidebar-market.c
     PortfolioMonitorComponent,
     PortfolioCompositionComponent,
     PortfolioSimulationComponent,
-    SidebarMarketComponent
+    SidebarMarketComponent,
+    StockLiveMarketDetailComponent,
+    StockLiveMarketListComponent,
+    StockLiveMarketItemComponent,
+    BondLiveMarketDetailComponent,
+    BondLiveMarketListComponent,
+    BondLiveMarketItemComponent,
+    CurrencyLiveMarketListComponent,
+    CurrencyLiveMarketDetailComponent,
+    CurrencyLiveMarketItemComponent
   ],
   imports: [
     BrowserModule,

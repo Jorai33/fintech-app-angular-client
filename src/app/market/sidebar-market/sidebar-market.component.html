@@ -6,7 +6,7 @@
         (click)="isCollapsedLM = !isCollapsedLM"
         [attr.aria-expanded]="!isCollapsedLM"
         aria-controls="collapseLM"
-        ><i class="far fa-chart-bar"></i>
+        ><i class="far fa-chart-bar fa-lg"></i>
         Live Market
       </a>
     </h6>
@@ -26,7 +26,7 @@
           >
         </li>
         <li routerLinkActive="active">
-          <a class="nav-link sidebar-a" [routerLink]="['/market', 'currencies']"
+          <a class="nav-link sidebar-a" [routerLink]="['/market', 'currency']"
             >Currencies</a
           >
         </li>
@@ -35,33 +35,30 @@
     <h6>
       <a
         class="nav-link"
-        (click)="isCollapsedMP = !isCollapsedMP"
-        [attr.aria-expanded]="!isCollapsedMP"
-        aria-controls="collapseMP"
-        [routerLink]="['/news']"
-        ><i class="far fa-newspaper"></i> News</a
+        (click)="isCollapsedNEWS = !isCollapsedNEWS"
+        [attr.aria-expanded]="!isCollapsedNEWS"
+        aria-controls="collapseNEWS"
+        ><i class="far fa-newspaper fa-lg"></i> News</a
       >
     </h6>
-    <div id="collapseMP">
-      <!-- <ul
+    <div id="collapseNEWS">
+      <ul
         class="list-group navbar-nav sidebar-ul"
-        [ngbCollapse]="!isCollapsedMP"
+        [ngbCollapse]="isCollapsedNEWS"
       >
         <li routerLinkActive="active">
-          <a
-            class="nav-link sidebar-a"
-            [routerLink]="['/client', 'account', id, 'portfolio-monitor']"
-            >Finance</a
+          <a class="nav-link sidebar-a" [routerLink]="['/market', 'news']"
+            >Latest News</a
           >
         </li>
-        <li routerLinkActive="active">
+        <!-- <li routerLinkActive="active">
           <a
             class="nav-link sidebar-a"
             [routerLink]="['/client', 'account', id, 'portfolio-composition']"
             >Business</a
           >
-        </li>
-      </ul> -->
+        </li> -->
+      </ul>
     </div>
   </div>
 </div>
