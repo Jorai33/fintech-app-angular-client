@@ -1,14 +1,6 @@
-<div class="row">
-  <div class="col-xs-12">
-    <button class="btn btn-success">Filter News By Topic</button>
-  </div>
-</div>
-<hr />
-<div class="row">
-  <div class="col-xs-12">
-    <app-market-news-item
-      *ngFor="let oneNewsEl of news"
-      [oneNews]="oneNewsEl"
-    ></app-market-news-item>
-  </div>
-</div>
+<ul class="list-group">
+  <app-market-news-item
+    *ngFor="let oneNewsEl of news"
+    [oneNews]="oneNewsEl"
+  ></app-market-news-item>
+</ul>

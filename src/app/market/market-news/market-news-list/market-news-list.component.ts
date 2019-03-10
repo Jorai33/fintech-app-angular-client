@@ -14,6 +14,18 @@ export class MarketNewsListComponent implements OnInit {
   constructor(private marketNewsService: MarketNewsService) {}
 
   ngOnInit() {
-    this.news = this.marketNewsService.getNews();
+    // this.news = this.marketNewsService.getNews();
+
+    // this.marketNewsService.getTopHeadlines().subscribe(newsResponse => {
+    //   console.log("The latest news are: ", newsResponse["articles"]);
+    //   this.news = newsResponse["articles"];
+    //   // this.recipeService.setRecipes(recipes);
+    // });
+
+    this.marketNewsService.getQueryTopHeadlines().subscribe(newsResponse => {
+      console.log("The Trump news are: ", newsResponse["articles"]);
+      this.news = newsResponse["articles"];
+      // this.recipeService.setRecipes(recipes);
+    });
   }
 }

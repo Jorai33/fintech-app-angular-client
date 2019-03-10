@@ -74,6 +74,7 @@ const appRoutes: Routes = [
     component: MarketStartComponent,
 
     children: [
+      { path: "", redirectTo: "/market/stock", pathMatch: "full" },
       {
         path: "stock",
         component: StockLiveMarketListComponent,
