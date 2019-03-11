@@ -21,7 +21,7 @@ export class StockLiveMarketDetailComponent implements OnInit {
   ngOnInit() {
     this.route.params.subscribe((params: Params) => {
       this.id = +params["id"];
-      this.stockPrice = this.liveMarketService.getStockPrice(this.id);
+      // this.stockPrice = this.liveMarketService.getStockPrice(this.id);
     });
   }
 }

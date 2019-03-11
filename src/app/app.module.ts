@@ -48,7 +48,6 @@ import { BondLiveMarketItemComponent } from "./market/live-market/bond/bond-live
 import { CurrencyLiveMarketListComponent } from "./market/live-market/currency/currency-live-market-list/currency-live-market-list.component";
 import { CurrencyLiveMarketDetailComponent } from "./market/live-market/currency/currency-live-market-detail/currency-live-market-detail.component";
 import { CurrencyLiveMarketItemComponent } from "./market/live-market/currency/currency-live-market-list/currency-live-market-item/currency-live-market-item.component";
-import { HttpClient } from "selenium-webdriver/http";
 
 @NgModule({
   declarations: [
