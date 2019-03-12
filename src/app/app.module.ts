@@ -48,6 +48,7 @@ import { BondLiveMarketItemComponent } from "./market/live-market/bond/bond-live
 import { CurrencyLiveMarketListComponent } from "./market/live-market/currency/currency-live-market-list/currency-live-market-list.component";
 import { CurrencyLiveMarketDetailComponent } from "./market/live-market/currency/currency-live-market-detail/currency-live-market-detail.component";
 import { CurrencyLiveMarketItemComponent } from "./market/live-market/currency/currency-live-market-list/currency-live-market-item/currency-live-market-item.component";
+import { LivePriceDirective } from "./market/live-market/stock/stock-live-market-list/stock-live-market-item/live-price.directive";
 
 @NgModule({
   declarations: [
@@ -87,7 +88,8 @@ import { CurrencyLiveMarketItemComponent } from "./market/live-market/currency/c
     BondLiveMarketItemComponent,
     CurrencyLiveMarketListComponent,
     CurrencyLiveMarketDetailComponent,
-    CurrencyLiveMarketItemComponent
+    CurrencyLiveMarketItemComponent,
+    LivePriceDirective
   ],
   imports: [
     BrowserModule,

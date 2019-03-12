@@ -7,7 +7,9 @@
   <div class="pull-left">
     <h4 class="list-group-item-heading">{{ stock.name }}</h4>
     <p class="list-group-item-text">{{ stock.symbol }}</p>
-    <p class="list-group-item-text">{{ livePriceAAPL }}</p>
+    <p class="list-group-item-text" [livePrice]="stock.symbol">
+      {{ livePrice }}
+    </p>
     <!-- <p class="list-group-item-text">{{ stockPrice.volume }}</p> -->
   </div>
 </li>
