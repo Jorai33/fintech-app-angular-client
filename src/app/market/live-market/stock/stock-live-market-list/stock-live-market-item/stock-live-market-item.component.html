@@ -1,15 +1,14 @@
-<li
-  class="list-group-item clearfix"
-  style="cursor: pointer;"
-  [routerLink]="[index]"
-  routerLinkActive="active"
->
-  <div class="pull-left">
-    <h4 class="list-group-item-heading">{{ stock.name }}</h4>
-    <p class="list-group-item-text">{{ stock.symbol }}</p>
-    <p class="list-group-item-text" [livePrice]="stock.symbol">
-      {{ livePrice }}
-    </p>
-    <!-- <p class="list-group-item-text">{{ stockPrice.volume }}</p> -->
+<div class="card section" [routerLink]="[index]">
+  <div class="card-header text-center">
+    <h3 class="card-title">{{ stockSymbol }}</h3>
+    <h6 class="card-subtitle mb-2 text-muted">{{ stockName }}</h6>
   </div>
-</li>
+  <div
+    class="card-body"
+    [ngStyle]="{
+      'background-color': priceCloseIncrease == true ? 'green' : '#ff4444 '
+    }"
+  >
+    <h3 class="card-text text-center price-card-text">{{ priceClose }}</h3>
+  </div>
+</div>

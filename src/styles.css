@@ -49,6 +49,22 @@ nav {
   max-height: 500px;
 }
 
+.card {
+  border: none;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  width: 18rem;
+  cursor: pointer;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.price-card-text {
+  color: #ffffff;
+}
+
 .sticky {
   position: -webkit-sticky; /* Safari */
   position: sticky;

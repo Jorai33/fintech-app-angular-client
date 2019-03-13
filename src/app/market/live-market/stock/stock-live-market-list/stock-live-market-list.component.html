@@ -1,17 +1,8 @@
-<div class="row">
-  <div class="col-xs-12">
-    <button class="btn btn-success">Start Live-Market</button>
-  </div>
-</div>
-<hr />
-<div class="row">
-  <div class="col-xs-12">
-    <ul class="list-group">
-      <app-stock-live-market-item
-        *ngFor="let stockEl of stockBankUniversum; let i = index"
-        [stock]="stockEl"
-        [index]="i"
-      ></app-stock-live-market-item>
-    </ul>
-  </div>
+<h3>Stock Market Live-Prices</h3>
+<div class="row main-section with-header">
+  <app-stock-live-market-item
+    *ngFor="let stockEl of stockBankUniversum; let i = index"
+    [stock]="stockEl"
+    [index]="i"
+  ></app-stock-live-market-item>
 </div>
