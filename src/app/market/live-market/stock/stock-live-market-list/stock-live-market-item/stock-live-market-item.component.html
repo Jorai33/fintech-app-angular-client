@@ -1,4 +1,4 @@
-<div class="card section" [routerLink]="[index]">
+<div class="card section" [routerLink]="[index]"  (click)="onSelected()">
   <div class="card-header text-center">
     <h3 class="card-title">{{ stockSymbol }}</h3>
     <h6 class="card-subtitle mb-2 text-muted">{{ stockName }}</h6>

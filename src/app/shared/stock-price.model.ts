@@ -1,12 +1,12 @@
 export class StockPrice {
   constructor(
-    public priceClose: number,
-    public priceHigh: number,
-    public priceLow: number,
-    public priceOpen: number,
     public stockName: string,
     public stockSymbol: string,
     public timestamp: Date,
+    public priceOpen: number,
+    public priceHigh: number,
+    public priceLow: number,
+    public priceClose: number,
     public volume: number
   ) {}
 }

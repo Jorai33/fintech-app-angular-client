@@ -1,14 +1,10 @@
 <div class="row">
-  <div class="col-xs-12"><img src="" alt="" class="img-responsive" /></div>
-</div>
-<div class="row">
   <div class="col-xs-12">
-    <h1>{{ stockPrice.name }}</h1>
+    <h1>{{ selectedStock.name }}</h1>
   </div>
 </div>
 <div class="row">
-  <div class="col-xs-12">{{ stockPrice.symbol }}</div>
+  <div class="col-xs-12">{{ selectedStock.symbol }}</div>
 </div>
-<div class="row">
-  <div class="col-xs-12">{{ stockPrice.volume }}</div>
-</div>
+<hr />
+<div #chart id="chart" class="live-price-chart"></div>

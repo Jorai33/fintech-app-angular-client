@@ -1,8 +1,18 @@
 <h3>Stock Market Live-Prices</h3>
-<div class="row main-section with-header">
-  <app-stock-live-market-item
-    *ngFor="let stockEl of stockBankUniversum; let i = index"
-    [stock]="stockEl"
-    [index]="i"
-  ></app-stock-live-market-item>
+<div class="row with-header">
+  <div class="col-md-5 row main-section with-header">
+    <app-stock-live-market-item
+      *ngFor="let stockEl of stockBankUniversum; let i = index"
+      [stock]="stockEl"
+      [index]="i"
+    ></app-stock-live-market-item>
+  </div>
+  <div class="col-md-6 main-section section">
+    <app-stock-live-market-detail
+      *ngIf="selectedOneStock; else infoText"
+      [selectedStock]="selectedOneStock"
+      [stockPriceSet]="selectedStockSet"
+    >
+    </app-stock-live-market-detail>
+  </div>
 </div>

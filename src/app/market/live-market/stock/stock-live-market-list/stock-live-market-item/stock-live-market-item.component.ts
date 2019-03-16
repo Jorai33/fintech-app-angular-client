@@ -20,7 +20,6 @@ export class StockLiveMarketItemComponent implements OnInit {
   private stockSymbol: string = "";
   private priceClose: number = 0;
   private volume: number = 0;
-  private timestamp: Date = new Date();
 
   private priceCloseIncrease: boolean = true;
 
@@ -39,10 +38,13 @@ export class StockLiveMarketItemComponent implements OnInit {
           }
           this.priceClose = stockLivePrice.priceClose;
           this.volume = stockLivePrice.volume;
-          this.timestamp = stockLivePrice.timestamp;
         }
       }
     );
+  }
+
+  onSelected() {
+    this.liveMarketService.stockLivePriceSelected.next(this.stock);
   }
 
   ngOnDestroy() {
