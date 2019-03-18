@@ -19,7 +19,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 9:45"),
+      "12-18-2018T9:45",
       165.69,
       165.73,
       165.53,
@@ -29,7 +29,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 9:46"),
+      "12-18-2018T9:46",
       165.62,
       165.7,
       165.47,
@@ -39,7 +39,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 9:47"),
+      "12-18-2018T9:47",
       165.62,
       165.64,
       165.56,
@@ -49,7 +49,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 9:48"),
+      "12-18-2018T9:48",
       165.68,
       165.83,
       165.64,
@@ -59,7 +59,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 9:49"),
+      "12-18-2018T9:49",
       165.69,
       165.8,
       165.54,
@@ -69,7 +69,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 9:50"),
+      "12-18-2018T9:50",
       165.65,
       165.67,
       165.49,
@@ -79,7 +79,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 9:51"),
+      "12-18-2018T9:51",
       165.61,
       165.64,
       165.48,
@@ -89,7 +89,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 9:52"),
+      "12-18-2018T9:52",
       165.55,
       165.75,
       165.5,
@@ -99,7 +99,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 9:53"),
+      "12-18-2018T9:53",
       165.73,
       165.8,
       165.67,
@@ -109,7 +109,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 9:54"),
+      "12-18-2018T9:54",
       165.8,
       165.8,
       165.65,
@@ -119,7 +119,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 9:55"),
+      "12-18-2018T9:55",
       165.71,
       165.8,
       165.63,
@@ -129,7 +129,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 9:56"),
+      "12-18-2018T9:56",
       165.74,
       166.08,
       165.74,
@@ -139,7 +139,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 9:57"),
+      "12-18-2018T9:57",
       166.07,
       166.07,
       165.88,
@@ -149,7 +149,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 9:58"),
+      "12-18-2018T9:58",
       165.95,
       166.0,
       165.89,
@@ -159,7 +159,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 9:59"),
+      "12-18-2018T9:59",
       165.93,
       166.08,
       165.91,
@@ -169,7 +169,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 10:00"),
+      "12-18-2018T10:00",
       166.05,
       166.18,
       166.0,
@@ -179,7 +179,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 10:01"),
+      "12-18-2018T10:01",
       165.94,
       166.06,
       165.87,
@@ -189,7 +189,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 10:02"),
+      "12-18-2018T10:02",
       165.87,
       165.91,
       165.7,
@@ -199,7 +199,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 10:03"),
+      "12-18-2018T10:03",
       165.71,
       165.8,
       165.64,
@@ -209,7 +209,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 10:04"),
+      "12-18-2018T10:04",
       165.69,
       165.69,
       165.57,
@@ -219,7 +219,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 10:05"),
+      "12-18-2018T10:05",
       165.58,
       165.67,
       165.53,
@@ -229,7 +229,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 10:06"),
+      "12-18-2018T10:06",
       165.55,
       165.57,
       165.41,
@@ -239,7 +239,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 10:07"),
+      "12-18-2018T10:07",
       165.62,
       165.85,
       165.62,
@@ -249,7 +249,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 10:08"),
+      "12-18-2018T10:08",
       165.6,
       165.76,
       165.6,
@@ -259,7 +259,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 10:09"),
+      "12-18-2018T10:09",
       165.67,
       165.75,
       165.57,
@@ -269,7 +269,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 10:10"),
+      "12-18-2018T10:10",
       165.58,
       165.58,
       165.45,
@@ -279,7 +279,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 10:11"),
+      "12-18-2018T10:11",
       165.44,
       165.52,
       165.36,
@@ -289,7 +289,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 10:12"),
+      "12-18-2018T10:12",
       165.34,
       165.38,
       165.27,
@@ -299,7 +299,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 10:13"),
+      "12-18-2018T10:13",
       165.24,
       165.54,
       165.23,
@@ -309,7 +309,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Apple",
       "AAPL",
-      new Date("12/18/2018 10:14"),
+      "12-18-2018T10:14",
       165.51,
       165.6,
       165.47,
@@ -321,7 +321,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 9:45"),
+      "12-18-2018T9:45",
       103.45,
       103.53,
       103.37,
@@ -331,7 +331,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 9:46"),
+      "12-18-2018T9:46",
       103.48,
       103.68,
       103.48,
@@ -341,7 +341,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 9:47"),
+      "12-18-2018T9:47",
       103.71,
       103.74,
       103.51,
@@ -351,7 +351,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 9:48"),
+      "12-18-2018T9:48",
       103.53,
       103.63,
       103.47,
@@ -361,7 +361,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 9:49"),
+      "12-18-2018T9:49",
       103.5,
       103.52,
       103.39,
@@ -371,7 +371,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 9:50"),
+      "12-18-2018T9:50",
       103.53,
       103.54,
       103.41,
@@ -381,7 +381,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 9:51"),
+      "12-18-2018T9:51",
       103.43,
       103.43,
       103.29,
@@ -391,7 +391,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 9:52"),
+      "12-18-2018T9:52",
       103.4,
       103.4,
       103.3,
@@ -401,7 +401,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 9:53"),
+      "12-18-2018T9:53",
       103.4,
       103.48,
       103.4,
@@ -411,7 +411,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 9:54"),
+      "12-18-2018T9:54",
       103.45,
       103.55,
       103.42,
@@ -421,7 +421,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 9:55"),
+      "12-18-2018T9:55",
       103.55,
       103.57,
       103.43,
@@ -431,7 +431,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 9:56"),
+      "12-18-2018T9:56",
       103.54,
       103.62,
       103.44,
@@ -441,7 +441,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 9:57"),
+      "12-18-2018T9:57",
       103.5,
       103.53,
       103.44,
@@ -451,7 +451,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 9:58"),
+      "12-18-2018T9:58",
       103.51,
       103.53,
       103.43,
@@ -461,7 +461,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 9:59"),
+      "12-18-2018T9:59",
       103.45,
       103.47,
       103.43,
@@ -471,7 +471,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 10:00"),
+      "12-18-2018T10:00",
       103.45,
       103.52,
       103.44,
@@ -481,7 +481,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 10:01"),
+      "12-18-2018T10:01",
       103.49,
       103.62,
       103.48,
@@ -491,7 +491,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 10:02"),
+      "12-18-2018T10:02",
       103.47,
       103.47,
       103.22,
@@ -501,7 +501,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 10:03"),
+      "12-18-2018T10:03",
       103.22,
       103.23,
       103.14,
@@ -511,7 +511,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 10:04"),
+      "12-18-2018T10:04",
       103.15,
       103.17,
       103.07,
@@ -521,7 +521,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 10:05"),
+      "12-18-2018T10:05",
       103.05,
       103.08,
       102.98,
@@ -531,7 +531,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 10:06"),
+      "12-18-2018T10:06",
       102.98,
       103.04,
       102.95,
@@ -541,7 +541,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 10:07"),
+      "12-18-2018T10:07",
       103.06,
       103.13,
       102.98,
@@ -551,7 +551,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 10:08"),
+      "12-18-2018T10:08",
       103.02,
       103.09,
       102.98,
@@ -561,7 +561,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 10:09"),
+      "12-18-2018T10:09",
       103.03,
       103.09,
       103.0,
@@ -571,7 +571,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 10:10"),
+      "12-18-2018T10:10",
       103.0,
       103.07,
       102.98,
@@ -581,7 +581,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 10:11"),
+      "12-18-2018T10:11",
       103.05,
       103.07,
       102.96,
@@ -591,7 +591,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 10:12"),
+      "12-18-2018T10:12",
       102.94,
       103.07,
       102.94,
@@ -601,7 +601,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 10:13"),
+      "12-18-2018T10:13",
       103.01,
       103.21,
       103.0,
@@ -611,7 +611,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Microsoft",
       "MSFT",
-      new Date("12/18/2018 10:14"),
+      "12-18-2018T10:14",
       103.23,
       103.26,
       103.16,
@@ -623,7 +623,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 9:45"),
+      "12-18-2018T9:45",
       141.74,
       141.76,
       141.59,
@@ -633,7 +633,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 9:46"),
+      "12-18-2018T9:46",
       141.71,
       141.81,
       141.53,
@@ -643,7 +643,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 9:47"),
+      "12-18-2018T9:47",
       141.58,
       141.73,
       141.54,
@@ -653,7 +653,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 9:48"),
+      "12-18-2018T9:48",
       141.6,
       141.78,
       141.48,
@@ -663,7 +663,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 9:49"),
+      "12-18-2018T9:49",
       141.72,
       141.8,
       141.62,
@@ -673,7 +673,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 9:50"),
+      "12-18-2018T9:50",
       141.68,
       141.8,
       141.6,
@@ -683,7 +683,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 9:51"),
+      "12-18-2018T9:51",
       141.69,
       141.69,
       141.6,
@@ -693,7 +693,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 9:52"),
+      "12-18-2018T9:52",
       141.64,
       141.83,
       141.53,
@@ -703,7 +703,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 9:53"),
+      "12-18-2018T9:53",
       141.83,
       142.2,
       141.83,
@@ -713,7 +713,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 9:54"),
+      "12-18-2018T9:54",
       142.16,
       142.17,
       142.02,
@@ -723,7 +723,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 9:55"),
+      "12-18-2018T9:55",
       142.12,
       142.32,
       142.12,
@@ -733,7 +733,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 9:56"),
+      "12-18-2018T9:56",
       142.4,
       142.6,
       142.36,
@@ -743,7 +743,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 9:57"),
+      "12-18-2018T9:57",
       142.43,
       142.43,
       142.31,
@@ -753,7 +753,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 9:58"),
+      "12-18-2018T9:58",
       142.44,
       142.48,
       142.33,
@@ -763,7 +763,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 9:59"),
+      "12-18-2018T9:59",
       142.36,
       142.43,
       142.29,
@@ -773,7 +773,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 10:00"),
+      "12-18-2018T10:00",
       142.4,
       142.42,
       142.32,
@@ -783,7 +783,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 10:01"),
+      "12-18-2018T10:01",
       142.38,
       142.74,
       142.38,
@@ -793,7 +793,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 10:02"),
+      "12-18-2018T10:02",
       142.53,
       142.53,
       142.13,
@@ -803,7 +803,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 10:03"),
+      "12-18-2018T10:03",
       142.14,
       142.22,
       142.09,
@@ -813,7 +813,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 10:04"),
+      "12-18-2018T10:04",
       142.13,
       142.13,
       141.92,
@@ -823,7 +823,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 10:05"),
+      "12-18-2018T10:05",
       141.94,
       141.96,
       141.82,
@@ -833,7 +833,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 10:06"),
+      "12-18-2018T10:06",
       141.78,
       141.96,
       141.72,
@@ -843,7 +843,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 10:07"),
+      "12-18-2018T10:07",
       142.0,
       142.05,
       141.81,
@@ -853,7 +853,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 10:08"),
+      "12-18-2018T10:08",
       141.83,
       141.96,
       141.83,
@@ -863,7 +863,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 10:09"),
+      "12-18-2018T10:09",
       141.89,
       141.98,
       141.87,
@@ -873,7 +873,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 10:10"),
+      "12-18-2018T10:10",
       141.88,
       141.9,
       141.74,
@@ -883,7 +883,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 10:11"),
+      "12-18-2018T10:11",
       141.77,
       141.82,
       141.62,
@@ -893,7 +893,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 10:12"),
+      "12-18-2018T10:12",
       141.64,
       141.76,
       141.64,
@@ -903,7 +903,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 10:13"),
+      "12-18-2018T10:13",
       141.7,
       141.9,
       141.7,
@@ -913,7 +913,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Facebook",
       "FB",
-      new Date("12/18/2018 10:14"),
+      "12-18-2018T10:14",
       141.95,
       141.97,
       141.86,
@@ -925,7 +925,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 9:45"),
+      "12-18-2018T9:45",
       1548.63,
       1551.0,
       1546.76,
@@ -935,7 +935,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 9:46"),
+      "12-18-2018T9:46",
       1548.12,
       1548.83,
       1545.46,
@@ -945,7 +945,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 9:47"),
+      "12-18-2018T9:47",
       1547.96,
       1547.96,
       1546.0,
@@ -955,7 +955,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 9:48"),
+      "12-18-2018T9:48",
       1546.96,
       1550.63,
       1546.96,
@@ -965,7 +965,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 9:49"),
+      "12-18-2018T9:49",
       1549.42,
       1549.42,
       1548.06,
@@ -975,7 +975,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 9:50"),
+      "12-18-2018T9:50",
       1549.16,
       1550.0,
       1547.79,
@@ -985,7 +985,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 9:51"),
+      "12-18-2018T9:51",
       1547.0,
       1547.0,
       1542.45,
@@ -995,7 +995,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 9:52"),
+      "12-18-2018T9:52",
       1544.0,
       1546.51,
       1542.62,
@@ -1005,7 +1005,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 9:53"),
+      "12-18-2018T9:53",
       1546.41,
       1547.0,
       1545.42,
@@ -1015,7 +1015,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 9:54"),
+      "12-18-2018T9:54",
       1547.15,
       1548.02,
       1547.15,
@@ -1025,7 +1025,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 9:55"),
+      "12-18-2018T9:55",
       1548.53,
       1548.53,
       1546.32,
@@ -1035,7 +1035,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 9:56"),
+      "12-18-2018T9:56",
       1547.89,
       1549.64,
       1546.99,
@@ -1045,7 +1045,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 9:57"),
+      "12-18-2018T9:57",
       1547.65,
       1547.65,
       1545.29,
@@ -1055,7 +1055,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 9:58"),
+      "12-18-2018T9:58",
       1546.47,
       1546.47,
       1543.53,
@@ -1065,7 +1065,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 9:59"),
+      "12-18-2018T9:59",
       1544.05,
       1544.05,
       1543.25,
@@ -1075,7 +1075,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 10:00"),
+      "12-18-2018T10:00",
       1544.5,
       1544.63,
       1544.0,
@@ -1085,7 +1085,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 10:01"),
+      "12-18-2018T10:01",
       1543.93,
       1545.0,
       1542.3,
@@ -1095,7 +1095,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 10:02"),
+      "12-18-2018T10:02",
       1542.27,
       1542.27,
       1538.0,
@@ -1105,7 +1105,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 10:03"),
+      "12-18-2018T10:03",
       1537.54,
       1538.0,
       1536.33,
@@ -1115,7 +1115,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 10:04"),
+      "12-18-2018T10:04",
       1536.17,
       1536.17,
       1534.25,
@@ -1125,7 +1125,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 10:05"),
+      "12-18-2018T10:05",
       1534.29,
       1536.65,
       1534.0,
@@ -1135,7 +1135,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 10:06"),
+      "12-18-2018T10:06",
       1534.27,
       1535.32,
       1532.92,
@@ -1145,7 +1145,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 10:07"),
+      "12-18-2018T10:07",
       1536.14,
       1536.7,
       1528.62,
@@ -1155,7 +1155,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 10:08"),
+      "12-18-2018T10:08",
       1529.26,
       1532.77,
       1529.26,
@@ -1165,7 +1165,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 10:09"),
+      "12-18-2018T10:09",
       1530.53,
       1530.81,
       1528.79,
@@ -1175,7 +1175,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 10:10"),
+      "12-18-2018T10:10",
       1528.0,
       1529.53,
       1526.0,
@@ -1185,7 +1185,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 10:11"),
+      "12-18-2018T10:11",
       1528.59,
       1529.75,
       1527.29,
@@ -1195,7 +1195,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 10:12"),
+      "12-18-2018T10:12",
       1528.5,
       1531.33,
       1528.3,
@@ -1205,7 +1205,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 10:13"),
+      "12-18-2018T10:13",
       1530.21,
       1533.81,
       1529.93,
@@ -1215,7 +1215,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Amazon",
       "AMZN",
-      new Date("12/18/2018 10:14"),
+      "12-18-2018T10:14",
       1533.7,
       1535.95,
       1533.21,
@@ -1227,7 +1227,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 9:45"),
+      "12-18-2018T9:45",
       1033.23,
       1033.23,
       1031.34,
@@ -1237,7 +1237,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 9:46"),
+      "12-18-2018T9:46",
       1032.46,
       1032.46,
       1031.01,
@@ -1247,7 +1247,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 9:47"),
+      "12-18-2018T9:47",
       1030.98,
       1030.98,
       1030.98,
@@ -1257,7 +1257,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 9:48"),
+      "12-18-2018T9:48",
       1031.74,
       1031.74,
       1030.68,
@@ -1267,7 +1267,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 9:49"),
+      "12-18-2018T9:49",
       1029.94,
       1030.0,
       1029.47,
@@ -1277,7 +1277,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 9:50"),
+      "12-18-2018T9:50",
       1030.55,
       1030.97,
       1030.55,
@@ -1287,7 +1287,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 9:51"),
+      "12-18-2018T9:51",
       1029.3,
       1029.3,
       1028.4,
@@ -1297,7 +1297,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 9:52"),
+      "12-18-2018T9:52",
       1027.9,
       1027.9,
       1027.9,
@@ -1307,7 +1307,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 9:53"),
+      "12-18-2018T9:53",
       1029.15,
       1029.28,
       1029.15,
@@ -1317,7 +1317,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 9:54"),
+      "12-18-2018T9:54",
       1029.72,
       1029.72,
       1029.72,
@@ -1327,7 +1327,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 9:55"),
+      "12-18-2018T9:55",
       1029.95,
       1030.54,
       1029.8,
@@ -1337,7 +1337,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 9:56"),
+      "12-18-2018T9:56",
       1032.17,
       1032.2,
       1032.17,
@@ -1347,7 +1347,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 9:57"),
+      "12-18-2018T9:57",
       1030.49,
       1030.49,
       1030.49,
@@ -1357,7 +1357,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 9:58"),
+      "12-18-2018T9:58",
       1029.57,
       1029.57,
       1029.57,
@@ -1367,7 +1367,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 9:59"),
+      "12-18-2018T9:59",
       1029.93,
       1029.93,
       1029.93,
@@ -1377,7 +1377,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 10:00"),
+      "12-18-2018T10:00",
       1030.77,
       1030.98,
       1030.77,
@@ -1387,7 +1387,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 10:01"),
+      "12-18-2018T10:01",
       1031.49,
       1031.49,
       1031.0,
@@ -1397,7 +1397,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 10:02"),
+      "12-18-2018T10:02",
       1029.0,
       1029.0,
       1029.0,
@@ -1407,7 +1407,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 10:03"),
+      "12-18-2018T10:03",
       1028.34,
       1029.48,
       1028.34,
@@ -1417,7 +1417,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 10:04"),
+      "12-18-2018T10:04",
       1028.98,
       1028.98,
       1028.41,
@@ -1427,7 +1427,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 10:05"),
+      "12-18-2018T10:05",
       1027.9,
       1027.9,
       1027.9,
@@ -1437,7 +1437,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 10:06"),
+      "12-18-2018T10:06",
       1027.54,
       1029.09,
       1027.54,
@@ -1447,7 +1447,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 10:07"),
+      "12-18-2018T10:07",
       1028.78,
       1028.78,
       1028.78,
@@ -1457,7 +1457,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 10:08"),
+      "12-18-2018T10:08",
       1029.0,
       1029.0,
       1029.0,
@@ -1467,7 +1467,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 10:09"),
+      "12-18-2018T10:09",
       1028.98,
       1029.01,
       1028.98,
@@ -1477,7 +1477,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 10:10"),
+      "12-18-2018T10:10",
       1028.71,
       1028.71,
       1028.48,
@@ -1487,7 +1487,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 10:11"),
+      "12-18-2018T10:11",
       1028.08,
       1028.08,
       1028.08,
@@ -1497,7 +1497,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 10:12"),
+      "12-18-2018T10:12",
       1027.99,
       1028.0,
       1027.99,
@@ -1507,7 +1507,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 10:13"),
+      "12-18-2018T10:13",
       1029.08,
       1029.6,
       1029.08,
@@ -1517,7 +1517,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alphabet",
       "GOOG",
-      new Date("12/18/2018 10:14"),
+      "12-18-2018T10:14",
       1030.66,
       1030.66,
       1030.66,
@@ -1529,7 +1529,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 9:45"),
+      "12-18-2018T9:45",
       143.23,
       143.26,
       142.95,
@@ -1539,7 +1539,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 9:46"),
+      "12-18-2018T9:46",
       143.1,
       143.48,
       143.07,
@@ -1549,7 +1549,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 9:47"),
+      "12-18-2018T9:47",
       143.39,
       143.49,
       143.36,
@@ -1559,7 +1559,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 9:48"),
+      "12-18-2018T9:48",
       143.23,
       143.48,
       143.23,
@@ -1569,7 +1569,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 9:49"),
+      "12-18-2018T9:49",
       143.4,
       143.4,
       142.92,
@@ -1579,7 +1579,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 9:50"),
+      "12-18-2018T9:50",
       143.1,
       143.35,
       143.1,
@@ -1589,7 +1589,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 9:51"),
+      "12-18-2018T9:51",
       143.07,
       143.08,
       142.7,
@@ -1599,7 +1599,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 9:52"),
+      "12-18-2018T9:52",
       142.76,
       142.85,
       142.57,
@@ -1609,7 +1609,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 9:53"),
+      "12-18-2018T9:53",
       142.79,
       143.01,
       142.79,
@@ -1619,7 +1619,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 9:54"),
+      "12-18-2018T9:54",
       142.91,
       143.0,
       142.75,
@@ -1629,7 +1629,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 9:55"),
+      "12-18-2018T9:55",
       143.0,
       143.2,
       142.92,
@@ -1639,7 +1639,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 9:56"),
+      "12-18-2018T9:56",
       143.04,
       143.37,
       143.02,
@@ -1649,7 +1649,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 9:57"),
+      "12-18-2018T9:57",
       143.04,
       143.04,
       142.73,
@@ -1659,7 +1659,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 9:58"),
+      "12-18-2018T9:58",
       142.91,
       142.98,
       142.6,
@@ -1669,7 +1669,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 9:59"),
+      "12-18-2018T9:59",
       142.58,
       142.77,
       142.53,
@@ -1679,7 +1679,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 10:00"),
+      "12-18-2018T10:00",
       142.69,
       142.76,
       142.65,
@@ -1689,7 +1689,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 10:01"),
+      "12-18-2018T10:01",
       142.75,
       142.79,
       142.71,
@@ -1699,7 +1699,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 10:02"),
+      "12-18-2018T10:02",
       142.71,
       142.71,
       142.4,
@@ -1709,7 +1709,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 10:03"),
+      "12-18-2018T10:03",
       142.52,
       142.52,
       142.37,
@@ -1719,7 +1719,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 10:04"),
+      "12-18-2018T10:04",
       142.35,
       142.35,
       141.84,
@@ -1729,7 +1729,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 10:05"),
+      "12-18-2018T10:05",
       141.81,
       142.04,
       141.71,
@@ -1739,7 +1739,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 10:06"),
+      "12-18-2018T10:06",
       141.79,
       142.08,
       141.77,
@@ -1749,7 +1749,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 10:07"),
+      "12-18-2018T10:07",
       142.04,
       142.18,
       141.77,
@@ -1759,7 +1759,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 10:08"),
+      "12-18-2018T10:08",
       141.83,
       142.0,
       141.78,
@@ -1769,7 +1769,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 10:09"),
+      "12-18-2018T10:09",
       141.76,
       141.81,
       141.58,
@@ -1779,7 +1779,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 10:10"),
+      "12-18-2018T10:10",
       141.55,
       141.64,
       141.44,
@@ -1789,7 +1789,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 10:11"),
+      "12-18-2018T10:11",
       141.59,
       141.6,
       141.22,
@@ -1799,7 +1799,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 10:12"),
+      "12-18-2018T10:12",
       141.23,
       141.3,
       141.02,
@@ -1809,7 +1809,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 10:13"),
+      "12-18-2018T10:13",
       141.08,
       141.45,
       141.06,
@@ -1819,7 +1819,7 @@ export class StockLiveMarketListComponent implements OnInit {
     new StockPrice(
       "Alibaba",
       "BABA",
-      new Date("12/18/2018 10:14"),
+      "12-18-2018T10:14",
       141.52,
       141.52,
       141.35,
@@ -1869,6 +1869,7 @@ export class StockLiveMarketListComponent implements OnInit {
   updateStockPriceSet() {
     this.subscriptionStockAAPLSet = this.liveMarketService.stockPriceAAPLSetChanged.subscribe(
       (stockSet: StockPrice[]) => {
+        console.log("New StockSet -> ", stockSet);
         this.stockPriceAAPLSet = stockSet;
       }
     );

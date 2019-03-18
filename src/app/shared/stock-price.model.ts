@@ -2,7 +2,7 @@ export class StockPrice {
   constructor(
     public stockName: string,
     public stockSymbol: string,
-    public timestamp: Date,
+    public timestamp: string,
     public priceOpen: number,
     public priceHigh: number,
     public priceLow: number,
