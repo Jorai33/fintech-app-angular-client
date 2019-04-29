@@ -1,0 +1,62 @@
+version: "3"
+services:
+  mongo-auth:
+    image: mongo
+    ports:
+      - "27017:27017"
+  auth:
+    image: iulianmoisa/fintech-app-auth:v1.6
+    build: .
+    command: node index.js
+    volumes:
+      - ./usr/src/app
+      - /usr/src/app/node_modules
+    depends_on:
+      - "mongo-auth"
+  mysql-client-portfolios:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: business
+      MYSQL_USER: investor
+      MYSQL_PASSWORD: password
+    ports:
+      - "3306:3306"
+  client-portfolios:
+    image: iulianmoisa/fintech-app-client-portfolios:v1.5
+    depends_on:
+      - "mongo-auth"
+      - "mysql-client-portfolios"
+  mysql-data-analysis:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: fintech
+      MYSQL_USER: investor
+      MYSQL_PASSWORD: password
+    ports:
+      - "3307:3306"
+  data-analysis:
+    image: iulianmoisa/fintech-app-data-analysis:v1.1
+    depends_on:
+      - "mongo-auth"
+      - "mysql-data-analysis"
+  nginx-gateway:
+    image: iulianmoisa/fintech-app-nginx-gateway:v1.1
+    ports:
+      - "8080:8080"
+    depends_on:
+      - "auth"
+      - "client-portfolios"
+      - "data-analysis"
+  price-generator:
+    image: iulianmoisa/fintech-app-price-generator:v1.5
+  activemq:
+    image: iulianmoisa/fintech-app-queue:v1.1
+    ports:
+      - "8161:8161"
+      - "61616:61616"
+  market-simulator:
+    image: iulianmoisa/fintech-app-market-simulator:v1.2
+    ports:
+      - "8091:8091"
